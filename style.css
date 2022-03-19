@@ -4,12 +4,14 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  color: #0c0c0c;
+  background-color: #cfcfcf;
+  /* background-image: url("img/test.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: contain; */
 }
+
 
 .container {
   max-width: 928px;
@@ -18,6 +20,8 @@ body {
 }
 
 .page-header {
+  /* background-color: #622457;*/
+  box-shadow: 0px 5px 20px #363636; 
   margin: 0 0 160px;
   padding: 32px 0 32px;
 }
@@ -29,8 +33,9 @@ body {
 }
 
 .page-header a {
+  font-weight: bold;
   margin-left: 56px;
-  color: #288be6;
+  color: rgb(20, 20, 20);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -46,16 +51,16 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
-.hero-image {
+.heading {
   margin-bottom: 620px;
 }
 
-.hero-image .container {
+.heading .container {
   max-width: 1408px;
   text-align: center;
 }
 
-.heading {
+.heading h1 {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 88px;
@@ -63,27 +68,27 @@ body {
   font-weight: 400;
 }
 
-.hero-image p {
+.heading p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
+}
+.heading img {
+  margin: 35px;
+  border-radius: 10px;
 }
 
 .intro {
   margin: 0 0 120px;
 }
 
-.subheading {
+.intro h2,
+.portfolio h2{
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
-  text-align: center;
-}
-
-.user-image {
-  margin: 0 0 32px;
   text-align: center;
 }
 
