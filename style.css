@@ -6,6 +6,10 @@ body {
   line-height: 32px;
   color: #0c0c0c;
   background-color: #cfcfcf;
+  /* background-image: url("img/test.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; */
 }
 
 
@@ -78,8 +82,7 @@ body {
   margin: 0 0 120px;
 }
 
-.intro h2,
-.portfolio h2{
+.topic{
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
